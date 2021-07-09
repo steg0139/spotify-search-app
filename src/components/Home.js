@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { Button } from 'react-bootstrap';
 import Header from './Header';
+
 const Home = (props) => {
   const {
     REACT_APP_CLIENT_ID,
